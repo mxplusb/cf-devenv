@@ -10,6 +10,8 @@ RUN apt-get update && \
     php5* \
     python-setuptools \
     scala \
+    groovy \
+    gradle \
     apt-transport-https \
     build-essential
 

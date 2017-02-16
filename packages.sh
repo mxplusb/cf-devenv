@@ -38,7 +38,7 @@ brew cask install -v yourkit-java-profiler
 brew tap homebrew/dupes
 
 # install things that needed java.
-java_programs=(maven jetty findbugs ant gradle groovy)
+java_programs=(maven jetty findbugs ant)
 for i in ${java_programs[@]}:
 do
     brew install $i $(brew options $i | grep "\-\-with\-")
