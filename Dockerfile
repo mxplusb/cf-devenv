@@ -12,6 +12,10 @@ RUN apt-get update && \
     scala \
     groovy \
     gradle \
+    ant \
+    maven \
+    openjdk-8* \
+    python3* \
     apt-transport-https \
     build-essential
 
