@@ -14,8 +14,8 @@ RUN apt-get update && \
     gradle \
     ant \
     maven \
-    openjdk-8* \
-    python3* \
+    openjdk-8-j* \
+    python3-dev \
     apt-transport-https \
     build-essential
 
